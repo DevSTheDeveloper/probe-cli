@@ -1,0 +1,20 @@
+{
+  "name": "probe-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "probe": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Lightweight CLI tool for API health checks and automated endpoint testing. Built by revelo. www.revelo.software/probe-cli",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "commander": "^14.0.0",
+    "yaml": "^2.8.0"
+  }
+}
