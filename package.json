@@ -1,6 +1,7 @@
 {
-  "name": "probe-cli",
-  "version": "1.0.0",
+  "name": "@revelo/probe-cli",
+  "version": "1.1.0",
+  "description": "Lightweight CLI tool for API health checks and automated endpoint testing. Built by Revelo. www.revelo.software/probe-cli",
   "main": "index.js",
   "bin": {
     "probe": "./index.js"
@@ -9,12 +10,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "Lightweight CLI tool for API health checks and automated endpoint testing. Built by revelo. www.revelo.software/probe-cli",
+  "author": "www.revelo.software",
+  "license": "Apache-2.0",
   "dependencies": {
     "axios": "^1.10.0",
     "commander": "^14.0.0",
     "yaml": "^2.8.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
