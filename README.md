@@ -4,8 +4,6 @@
 
 Lightweight CLI tool for API health checks and automated endpoint testing.
 
-Built by [revelo.](https://www.revelo.software/probe-cli).
-
 ---
 
 ## Install Guide & Usage
