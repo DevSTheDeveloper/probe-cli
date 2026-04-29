@@ -9,5 +9,7 @@ Built by [revelo.](https://www.revelo.software/probe-cli).
 ---
 
 ## Install Guide & Usage
+To install: npm i probe-cli
 
-[revelo. docs](https://www.revelo.software/probe-cli).
+For versioning:
+https://www.npmjs.com/package/probe-cli
